@@ -1,4 +1,5 @@
 const path = location.pathname
+const scrollOffset = 100
 
 // 編集ページ用
 if (isEditPage(path)) {
@@ -12,7 +13,7 @@ if (isEditPage(path)) {
         const header = document.getElementById(hash)
         const scrollRate = header.parentElement.offsetTop / document.body.querySelector('.editor-previewContainer').scrollHeight
         const editor = document.body.querySelector('.CodeMirror-scroll')
-        editor.scrollTo({top: editor.scrollHeight * scrollRate})
+        editor.scrollTo({top: (editor.scrollHeight * scrollRate) - scrollOffset})
       }, 800)
     })
   }

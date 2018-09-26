@@ -3,7 +3,7 @@
   "name": "Kibela editor",
   "description": "Chrome Extension for kibela web editor",
   "author": "Tomoyuki Kashiro",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "icons": {},
   "browser_action": {},
   "content_scripts": [
