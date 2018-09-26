@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Kibela editor",
+  "description": "Chrome Extension for kibela web editor",
+  "author": "Tomoyuki Kashiro",
+  "version": "1.0.0",
+  "icons": {},
+  "browser_action": {},
+  "content_scripts": [
+    {
+      "matches": ["https://bankinc.kibe.la/*"],
+      "js": ["scripts/main.js"],
+      "css": ["styles/main.css"]
+    }
+  ],
+  "permissions": [
+    "https://bankinc.kibe.la/*/*/*"
+  ]
+}

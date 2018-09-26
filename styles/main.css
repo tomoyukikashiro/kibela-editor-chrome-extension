@@ -1,0 +1,18 @@
+.fa.kex-edit-icon {
+  font-size: 1.6rem;
+  top: 40%;
+  padding: 13px 8px 13px 5px;
+  position: absolute;
+  left: -1.5em;
+  display: none;
+  margin-top: -42px;
+}
+
+.markdown-body.is-markdown-body-kibela h1:hover .fa.kex-edit-icon,
+.markdown-body.is-markdown-body-kibela h2:hover .fa.kex-edit-icon,
+.markdown-body.is-markdown-body-kibela h3:hover .fa.kex-edit-icon,
+.markdown-body.is-markdown-body-kibela h4:hover .fa.kex-edit-icon,
+.markdown-body.is-markdown-body-kibela h5:hover .fa.kex-edit-icon,
+.markdown-body.is-markdown-body-kibela h6:hover .fa.kex-edit-icon {
+    display: inline-block
+}
